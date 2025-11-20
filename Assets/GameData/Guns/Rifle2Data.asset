@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dae785e34d3818f41bbb9b07e9a6b749, type: 3}
+  m_Name: Rifle2Data
+  m_EditorClassIdentifier: Assembly-CSharp::GunData
+  gunId: Rilfe_02
+  displayName: Semi Auto Rifle
+  damage: 15
+  fireRate: 5
+  range: 100
+  adsSpreadMultiplier: 0.4
+  fireMode: 0
+  pelletsPerShot: 1
+  spreadAngle: 1
+  magSize: 12
+  maxReserveAmmo: 12
+  reloadTime: 1.2
+  firstPersonModelPrefab: {fileID: 0}
+  worldModelPrefab: {fileID: 0}
+  shotClip: {fileID: 8300000, guid: d209f9949fd33bb4d8e1da86fd2f89da, type: 3}
+  shotVolume: 1
+  dryFireClip: {fileID: 8300000, guid: ad215c127870aaa449f9987b47ec25f2, type: 3}
+  reloadClip: {fileID: 8300000, guid: 4be9218350896454db9b2aeb60208075, type: 3}
+  reloadVolume: 1.5
+  hitmarkerClip: {fileID: 8300000, guid: 89aededa81dfd524f809589c48f843f0, type: 3}
+  rarity: 0
+  rarityColor: {r: 0.15686275, g: 0.50980395, b: 0.9411765, a: 1}

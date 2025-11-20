@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dae785e34d3818f41bbb9b07e9a6b749, type: 3}
+  m_Name: SubmachineGunData
+  m_EditorClassIdentifier: Assembly-CSharp::GunData
+  gunId: SubmachineGun_01
+  displayName: Submachine Gun
+  damage: 7
+  fireRate: 20
+  range: 70
+  adsSpreadMultiplier: 0.4
+  fireMode: 1
+  pelletsPerShot: 1
+  spreadAngle: 2
+  magSize: 30
+  maxReserveAmmo: 30
+  reloadTime: 0.6
+  firstPersonModelPrefab: {fileID: 0}
+  worldModelPrefab: {fileID: 0}
+  shotClip: {fileID: 8300000, guid: 7a4ca6af471cb0e49afab4be60be7f37, type: 3}
+  shotVolume: 1
+  dryFireClip: {fileID: 8300000, guid: ad215c127870aaa449f9987b47ec25f2, type: 3}
+  reloadClip: {fileID: 8300000, guid: 9c27d84b4451ac64f8f6940d26c4b97b, type: 3}
+  reloadVolume: 1.5
+  hitmarkerClip: {fileID: 8300000, guid: 89aededa81dfd524f809589c48f843f0, type: 3}
+  rarity: 1
+  rarityColor: {r: 0.15686275, g: 0.50980395, b: 0.9411765, a: 1}
